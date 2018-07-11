@@ -17,4 +17,16 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::middleware('auth')->group(function () {
+    Route::middleware('can:manage,App\Client')->group(function () {
+        Route::get('/client', 'ClientController@index');
+        Route::post('/client', 'ClientController@store');
+        Route::get('/client/{client}', 'ClientController@show');
+        Route::delete('/client/{client}', 'ClientController@destroy')
+            ->middleware('can:delete,client');
+        Route::get('/client/{client}/edit', 'ClientController@edit');
+        Route::post('/client/{client}', 'ClientController@update');
+    });
+});
+
 Route::get('/home', 'HomeController@index')->name('home');

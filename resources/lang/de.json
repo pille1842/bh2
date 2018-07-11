@@ -1,13 +1,27 @@
 {
+  "Add New User": "Benutzer hinzufügen",
+  "Clients": "Mandanten",
   "Confirm Password": "Passwort bestätigen",
+  "Create": "Erstellen",
+  "Delete": "Löschen",
+  "Do you really want to delete this client and all its data?": "Möchten Sie diesen Mandanten und all seine Daten wirklich löschen?",
+  "Do you really want to delete this user?": "Möchten Sie diesen Benutzer wirklich löschen?",
   "E-Mail Address": "E-Mail Adresse",
+  "Edit Client": "Mandant bearbeiten",
+  "Edit": "Bearbeiten",
   "Forgot Your Password?": "Passwort vergessen?",
   "Login": "Einloggen",
   "Logout": "Ausloggen",
+  "Manage Clients": "Mandanten verwalten",
+  "Manager": "Verwalter",
   "Name": "Name",
   "Password": "Passwort",
   "Register": "Registrieren",
   "Remember Me": "Angemeldet bleiben",
   "Reset Password": "Passwort zurücksetzen",
-  "Send Password Reset Link": "Link zum Zurücksetzen des Passworts senden"
+  "Save": "Speichern",
+  "Send Password Reset Link": "Link zum Zurücksetzen des Passworts senden",
+  "Superuser": "Administrator",
+  "You cannot delete the client your account is attached to.": "Sie können den Mandanten nicht löschen, mit dem Ihr Benutzerkonto verknüpft ist.",
+  "You cannot delete your own account.": "Sie können Ihren eigenen Benutzerzugang nicht löschen."
 }
